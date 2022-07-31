@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# gatsby
+node_modules/
+.cache/
+public
+src/gatsby-types.d.ts

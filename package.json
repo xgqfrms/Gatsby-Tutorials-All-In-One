@@ -10,7 +10,8 @@
     "SSG"
   ],
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public master",
+    "copy": "cp ./README.md ./static/",
+    "deploy": "npm run copy && gatsby build && gh-pages -d public master",
     "deploy-prefix": "gatsby build --prefix-paths && gh-pages -d public master",
     "app": "gatsby build && gh-pages -d public main",
     "dev": "gatsby develop",

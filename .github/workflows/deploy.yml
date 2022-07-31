@@ -34,7 +34,7 @@ jobs:
         run: |
           echo “📦 安装依赖包，开始构建 ⚡️”
           # npm ci
-          npm i
+          npm i --force
           npm run build
 
       # Runs a single command using the runners shell

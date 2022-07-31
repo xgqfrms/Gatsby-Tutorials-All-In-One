@@ -9,7 +9,7 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
+  // maxWidth: 320,
 }
 const headingAccentStyles = {
   color: "#663399",
@@ -90,6 +90,14 @@ const badgeStyle = {
   lineHeight: 1,
 }
 
+const skillStyles = {
+  color: "#0f0",
+  background: "#000",
+  padding: "10px",
+  maxWidth: "300px",
+  width: "100%",
+}
+
 // data
 const links = [
   {
@@ -143,16 +151,12 @@ const IndexPage = () => {
     <main style={pageStyles}>
       <title>Home Page</title>
       <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        🎉🎉🎉
+        <span style={headingAccentStyles}>Gatsby React App</span> 🎉🎉🎉
       </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.tsx</code> to see this page
-        update in real-time. 😎
-      </p>
-      <ul style={doclistStyles}>
+      <section>
+        <p style={skillStyles}>React + TypeScript + GitHub Actions</p>
+      </section>
+      {/* <ul style={doclistStyles}>
         {docLinks.map(doc => (
           <li key={doc.url} style={docLinkStyle}>
             <a
@@ -163,7 +167,7 @@ const IndexPage = () => {
             </a>
           </li>
         ))}
-      </ul>
+      </ul> */}
       <ul style={listStyles}>
         {links.map(link => (
           <li key={link.url} style={{ ...listItemStyles, color: link.color }}>

@@ -1,9 +1,11 @@
 import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
+  // pathPrefix: `/Gatsby-Tutorials-All-In-One`,
+  pathPrefix: `/`,
   siteMetadata: {
-    title: `gastby-react-app`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `gatsby-react-app`,
+    siteUrl: `https://gatsby-react-app.xgqfrms.xyz`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

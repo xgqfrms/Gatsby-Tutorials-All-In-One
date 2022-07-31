@@ -2,19 +2,11 @@
 
 
 ```sh
+# create `static-website`
+$ npm init gatsby
 
-$ npm i -g gatsby-cli
-
-```
-
-
-```sh
-
-$ gatsby new static-website
-
-$ cd static-website
-
-$ gatsby develop
+# 使用 `&&` 串行执行多个 Linux Shell 命令
+$ cd static-website && gatsby develop
 
 $ gatsby build
 
@@ -24,10 +16,15 @@ $ gatsby serve
 
 ## demos
 
+1. `/static/CNAME` ✅ 
+2. custom domain
+
+![](https://img2022.cnblogs.com/blog/740516/202208/740516-20220801021140400-1187664298.png)
+
+
 https://gatsby-react-app.xgqfrms.xyz/
 
 ~~https://abc.xgqfrms.xyz/gatsby-react-app/~~
-
 
 <!-- https://cnblogs.xgqfrms.xyz/
 

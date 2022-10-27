@@ -143,9 +143,9 @@ const IndexPage = () => {
             <span>
               <a
                 style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter-ts`}
+                href={`${link.url}?utm_source=xgqfrms.xyz`}
               >
-                {link.text}
+                🇨🇳 {link.text} 🚀
               </a>
               {link.badge && (
                 <span style={badgeStyle} aria-label="New Badge">

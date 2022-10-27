@@ -29,16 +29,20 @@ jobs:
         # Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           echo 正在执行多个命令! ✅✅
-          npm ci
+          npm i
           npm run deploy
+        # run: |
+        #   echo 正在执行多个命令! ✅✅
+        #   npm ci
+        #   npm run deploy
 
       - name: start deploy
-        run: echo “开始部署完成了.”
-      - name: Deploy to gh-pages🚀
+        run: echo “开始部署 ...⌛️ ”
+      - name: Deploy to gh-pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: public
           # The folder the action should deploy.
           token: ${{ secrets.ACCESS_TOKEN }}
       - name: Run a one-line script
-        run: echo “✅ 部署完成了.”
+        run: echo “部署完成 ✅”

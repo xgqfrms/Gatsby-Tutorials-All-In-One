@@ -26,7 +26,6 @@
     "editor.wordWrap": "on",
     "editor.insertSpaces": true,
     "files.encoding": "utf8",
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
     "[typescript]": {
         "editor.formatOnSave": false,
         "editor.formatOnPaste": false
@@ -76,7 +75,6 @@
     "html.format.extraLiners": "",
     "html.format.enable": false,
     "html.format.contentUnformatted": "body, div, section, script, pre,code,textarea",
-    "telemetry.enableCrashReporter": false,
     "gitlens.advanced.telemetry.enabled": false,
     "telemetry.enableTelemetry": false,
 

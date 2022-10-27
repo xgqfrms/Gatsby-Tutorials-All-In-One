@@ -29,7 +29,7 @@ jobs:
         # Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
         run: |
           echo 正在执行多个命令! ✅✅
-          npm i
+          npm i -f
           npm run deploy
         # run: |
         #   echo 正在执行多个命令! ✅✅

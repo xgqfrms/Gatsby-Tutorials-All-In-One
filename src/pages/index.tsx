@@ -135,7 +135,7 @@ const IndexPage = () => {
         <span style={headingAccentStyles}>Gatsby React App (2022)</span> 🎉🎉🎉
       </h1>
       <section>
-        <p style={skillStyles}>React + TypeScript + GitHub Actions</p>
+        <p style={skillStyles}>🇨🇳 React + TypeScript + GitHub Actions + GitHub Pages(gh-pages) 🇨🇳</p>
       </section>
       <ul style={listStyles}>
         {links.map(link => (

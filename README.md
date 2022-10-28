@@ -1,9 +1,12 @@
 # Gatsby-Tutorials-All-In-One
 
 
+## CLI
+
 ```sh
 # create `static-website`
 $ npm init gatsby
+# 1. 交互式, 问答确认, ts & project-name
 
 # 使用 `&&` 串行执行多个 Linux Shell 命令
 $ cd static-website && gatsby develop
@@ -13,6 +16,20 @@ $ gatsby build
 $ gatsby serve
 
 ```
+
+> CLI `flags`
+
+```sh
+# ts version
+$ npm init gatsby -y -ts my-site-name
+# 2. 命令式, -y 无需交互问答确认, 直接指定 ts & project-name
+
+
+```
+
+https://github.com/gatsbyjs/gatsby-starter-minimal
+
+https://github.com/gatsbyjs/gatsby-starter-minimal-ts
 
 ## demos
 

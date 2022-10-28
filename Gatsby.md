@@ -1,5 +1,35 @@
 # Gatsby
 
+https://www.gatsbyjs.com/docs/
+
+https://www.gatsbyjs.com/docs/tutorial/
+
+https://www.gatsbyjs.com/docs/quick-start/
+
+https://www.gatsbyjs.com/docs/how-to/
+
+https://www.gatsbyjs.com/plugins
+
+> gatsby-config.ts
+
+https://www.gatsbyjs.com/plugins/gatsby-source-filesystem/
+
+https://www.gatsbyjs.com/plugins/gatsby-plugin-image/
+
+https://www.gatsbyjs.com/plugins/gatsby-plugin-sitemap/
+
+https://www.gatsbyjs.com/plugins/gatsby-plugin-sharp/
+
+https://www.gatsbyjs.com/plugins/gatsby-plugin-sass/
+
+
+https://egghead.io/q?access_state=free&q=gatsby
+
+## CI/CD
+
+> Gatsby Cloud
+
+https://www.gatsbyjs.com/dashboard/sites
 
 
 ## 禁用 gatsby telemetry

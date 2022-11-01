@@ -98,5 +98,12 @@
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
   },
-  "include": ["./src/**/*", "./gatsby-node.ts", "./gatsby-config.ts", "./plugins/**/*"]
+  "include": [
+    "./src/**/*",
+    "src/custom-declare.d.ts", // 好使 ✅
+    // "./custom-declare.d.ts", // 不好使 ❌
+    "./gatsby-node.ts",
+    "./gatsby-config.ts",
+    "./plugins/**/*",
+  ]
 }

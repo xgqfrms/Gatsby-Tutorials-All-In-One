@@ -53,3 +53,16 @@ https://github.com/xgqfrms/cnblogs/blob/gh-pages/docs/CNAME -->
 ## refs
 
 https://www.gatsbyjs.com/docs/
+
+https://www.gatsbyjs.com/docs/tutorial/
+
+<!-- 
+
+gatsby videos
+
+https://egghead.io/q?access_state=free&q=gatsby
+
+
+https://egghead.io/lessons/gatsby-use-gatsby-image-with-an-image-from-a-relative-path
+
+ -->

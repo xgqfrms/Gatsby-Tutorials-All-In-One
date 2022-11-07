@@ -137,7 +137,7 @@ const IndexPage = () => {
         image 优化 
         http://localhost:8000/static/icon-6dca591e3658782c0d3e8dfc96c41b6e.png
       */}
-      <img src={Icon} alt="icon"/>
+      <img src={Icon} alt="icon" style={{width: "100px"}}/>
       <section>
         <p style={skillStyles}>🇨🇳 React + TypeScript + GitHub Actions + GitHub Pages(gh-pages) 🇨🇳</p>
       </section>
@@ -172,5 +172,21 @@ const IndexPage = () => {
     </main>
   )
 }
+
+export const Head = () => (
+  <>
+    <title>Hello World</title>
+    <meta name="description" content="Hello World" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K1R7J1JJHW"></script>
+    <script>
+      {/* globalThis.window.dataLayer = globalThis.window.dataLayer || [];
+      function gtag(){
+        globalThis.window.dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'G-K1R7J1JJHW'); */}
+    </script>
+  </>
+)
 
 export default IndexPage

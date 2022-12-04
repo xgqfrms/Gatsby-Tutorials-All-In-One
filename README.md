@@ -53,6 +53,34 @@ https://github.com/xgqfrms/cnblogs/blob/gh-pages/docs/CNAME -->
 
 <img width="981" alt="image" src="https://user-images.githubusercontent.com/7291672/182037819-e44d4827-0e0f-40b9-9568-9f68b027ea2c.png">
 
+
+## CI/CD 自动化构建部署流程
+
+1. 手动复制 readme 到 static 文件夹
+
+2. gatsby build 会自动把 static 文件夹下的文件复制到 构建出来的 public 文件下
+
+3. 所以 Action 只要指定 CI/CD 发布部署的根目录 folder 为 public 即可
+
+```js
+  "scripts": {
+    "copy": "cp ./README.md ./static/",
+    "deploy": "npm run copy && gatsby build",
+  },
+```
+
+```yml
+# ...
+      - name: Deploy to gh-pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
+          # The folder the action should deploy.
+          token: ${{ secrets.ACCESS_TOKEN }}
+```
+
+[deploy-gh-pages.yml](.github/workflows/deploy-gh-pages.yml)
+
 ## refs
 
 https://www.gatsbyjs.com/docs/
@@ -69,3 +97,4 @@ https://egghead.io/q?access_state=free&q=gatsby
 https://egghead.io/lessons/gatsby-use-gatsby-image-with-an-image-from-a-relative-path
 
  -->
+

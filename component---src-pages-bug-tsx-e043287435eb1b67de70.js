@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_react_app=self.webpackChunkgatsby_react_app||[]).push([[852],{4710:function(e,t,a){a.r(t);var l=a(7294);t.default=function(){return l.createElement(l.Fragment,null,l.createElement("title",null,"Hello World"),l.createElement("meta",{name:"description",content:"Hello World"}),l.createElement("script",{async:!0,src:"https://www.googletagmanager.com/gtag/js?id=G-K1R7J1JJHW"}),l.createElement("script",null))}}}]);
+//# sourceMappingURL=component---src-pages-bug-tsx-e043287435eb1b67de70.js.map

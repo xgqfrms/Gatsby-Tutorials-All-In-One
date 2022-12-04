@@ -6,6 +6,10 @@ const config: GatsbyConfig = {
   siteMetadata: {
     title: `gatsby-react-app`,
     siteUrl: `https://gatsby-react-app.xgqfrms.xyz`,
+    // siteMetadata
+    description: `Come and enjoy an experience of a lifetime! Watch whales with us!`,
+    author: `@xgqfrms`,
+    keywords: `Gatsby, React, SSR, TypeScript, SEO`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
@@ -24,6 +28,21 @@ const config: GatsbyConfig = {
     },
     // mdx
     "gatsby-plugin-mdx",
+    // 1. load local markdown file
+    {
+      resolve: `gatsby-source-filesystem`,
+      // options: {
+      //   name: `blog`,
+      //   path: `${__dirname}/src/blog`,
+      // },
+      options: {
+        name: `blog`,
+        path: `./src/blog`,
+      },
+      __key: "blog"
+    },
+    // 2. convert markdown file to HTML & frontmatter
+    "gatsby-transformer-remark",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
